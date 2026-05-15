@@ -1,0 +1,5 @@
+html, body {
+  background:#FFFFF0;
+    overflow-x: hidden;
+    overscroll-behavior-x: none; /* 🔥 stops bounce */
+  }

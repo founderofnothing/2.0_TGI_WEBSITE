@@ -1,0 +1,1092 @@
+.collegeofphysiotherapy_container{
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:80px;
+    
+}
+
+
+/* gsap */
+
+/* =========================
+GSAP OPTIMIZATION
+========================= */
+
+.collegeofphysiotherapy_int_header{
+    overflow: hidden;
+}
+
+.collegeofphysiotherapy_int_header .word{
+    display: inline-block;
+    will-change: transform, opacity;
+}
+
+.collegeofphysiotherapy_int_cover_img,
+.collegeofphysiotherapy_int_sub_img,
+.collegeofphysiotherapy_int_header,
+.collegeofphysiotherapy_int_header_title,
+.collegeofphysiotherapy_int_para_title{
+    will-change: transform;
+}
+
+.collegeofphysiotherapy_int_lhs_img_wrapper{
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.sml_collegeofphysiotherapy_int_imgwrapper{
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: auto;
+}
+/* gsap */
+.collegeofphysiotherapy_int_layout_container{
+    display: flex;
+    flex-direction:row;
+
+}
+
+.collegeofphysiotherapy_int_header{
+    font-family: poppins;
+    font-size: 70px;
+    font-weight:500;
+    text-align: center;
+    text-transform:uppercase;
+    margin-bottom:20px;
+    
+
+}
+
+.collegeofphysiotherapy_int_top_wrapper{
+    width:99%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+}
+
+.collegeofphysiotherapy_int_lhs_img_wrapper{
+    width:40%;
+    height:500px;
+}
+
+.collegeofphysiotherapy_int_cover_img{
+    /* width:100%; */
+    height:500px;
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius: 12px;
+  }
+
+  .collegeofphysiotherapy_int_top_wrapper{
+    display: flex;
+    flex-direction:row;
+    /* margin-left:40px; */
+
+  }
+
+  .lhs_collegeofphysiotherapy_int_content_wrapper{
+    width:60%;
+    margin-left:30px;
+    margin-right: auto;
+    margin-top:60px;
+  }
+
+  .collegeofphysiotherapy_int_header_title{
+
+    font-family: poppins;
+    font-weight:600;
+    font-size:28px;
+    color:#556B2F;
+  }
+
+  .collegeofphysiotherapy_int_para_title{
+font-size:18px;
+font-family: poppins;
+font-weight:500;
+color:#454545;
+text-align: justify;
+  }
+
+
+  .sml_collegeofphysiotherapy_int_imgwrapper{
+    width:100%;
+    display:flex;
+    column-gap: 10px;
+    justify-content: end;
+    margin-top:180px;
+  }
+
+  .collegeofphysiotherapy_int_sub_img{
+    /* height:100px; */
+    width:15%;
+    height:140px;
+    object-fit:cover;
+
+  }
+
+
+
+
+.collegeofphysiotherapy_int_Principal_wrapper{
+    width:99%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+.collegeofphysiotherapy_int_Principal_header{
+    font-family: poppins;
+    font-weight: 600;
+    font-size:28px;
+    color:#556B2F;
+}  
+
+.collegeofphysiotherapy_int_princ_card{
+    width:99%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+.collegeofphysiotherapy_int_Principal_img{
+    /* height:100px; */
+    width:15%;
+    height:200px;
+    object-fit:cover;
+
+  }
+
+
+  .collegeofphysiotherapy_int_Principal_dis_para{
+font-size:18px;
+font-family: poppins;
+font-weight:500;
+color:#454545;
+width:70%;
+margin-left: auto;
+margin-right:10px;
+text-align: justify;
+  }
+
+  .collegeofphysiotherapy_int_Principal_aurthor{
+    font-size:16px;
+font-family: poppins;
+font-weight:400;
+color:#454545;
+text-align: right;
+
+  }
+
+.collegeofphysiotherapyInstitutionLister_course_wrapper{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    margin-top:120px;
+    
+}  
+
+.course_card_top{
+    border-top:0.4px solid #e0e0e0;
+    border-bottom:0.4px solid #e0e0e0;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.collegeofphysiotherapyLister_course_title{
+    font-family: poppins;
+    font-weight: 500;
+    font-size:18px;
+    color: #454545;
+    text-transform: capitalize;
+}
+
+.nrs_course_card_icons{
+    width:14px;
+    height:14px;
+}
+
+.course_reveal_para{
+  font-family:poppins;
+  font-weight:400;
+  font-size:18px;
+  color: #454545;
+  text-align: justify;
+  
+  }
+
+  .collegeofphysiotherapy_int_principal_pfp_wrapper{
+    width:35%;
+    height:250px;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  
+  .collegeofphysiotherapy_int_Principal_img_pfp{
+      /* height:100px; */
+      width:70%;
+      margin-left: auto;
+      margin-right: auto;
+      height:220px;
+      object-fit:cover;
+  
+    }
+  
+    .collegeofphysiotherapy_int_Principal_pfp{
+      font-size:16px;
+      font-family: poppins;
+      font-weight:500;
+      color:#556B2F;
+      text-align:left;
+  
+    }
+  
+    @media(max-width:1136px){
+  
+      .collegeofphysiotherapy_int_principal_pfp_wrapper{
+        width:50%;
+        height:250px;
+        display: flex;
+        flex-direction:column;
+      }
+      
+      
+      .collegeofphysiotherapy_int_Principal_img_pfp{
+          width:70%;
+          margin-left: auto;
+          margin-right: auto;
+          height:250px;
+          object-fit:cover;
+      
+        }
+      
+        .collegeofphysiotherapy_int_Principal_pfp{
+          font-size:16px;
+          font-family: poppins;
+          font-weight:500;
+          color:#556B2F;
+          text-align:left;
+      
+        }
+      
+      }  
+
+
+@media(max-width:1024px){
+
+  .collegeofphysiotherapy_int_princ_card{
+    display: flex;
+    flex-direction:column;
+  }
+
+.collegeofphysiotherapy_int_principal_pfp_wrapper{
+  width:30%;
+}
+.collegeofphysiotherapy_int_Principal_img_pfp{
+  width:80%;
+  margin-left:0px;
+}
+
+    /* .collegeofphysiotherapy_container{
+        width:98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:80px;
+        
+    } */
+    
+    /* .collegeofphysiotherapy_int_layout_container{
+        display: flex;
+        flex-direction:row;
+    
+    } */
+    
+    .collegeofphysiotherapy_int_header{
+        font-family: poppins;
+        font-size:64px;
+        font-weight:500;
+        text-align: center;
+        text-transform:uppercase;
+       margin-top:30px;
+        margin-bottom:20px;
+
+    
+    }
+    
+    /* .collegeofphysiotherapy_int_top_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction: row;
+    }
+     */
+    /* .collegeofphysiotherapy_int_lhs_img_wrapper{
+        width:40%;
+        height:500px;
+    } */
+    
+    /* .collegeofphysiotherapy_int_cover_img{
+        height:500px;
+        width:100%;
+        height:500px;
+        object-fit:cover;
+        border-radius: 12px;
+      } */
+    
+      /* .collegeofphysiotherapy_int_top_wrapper{
+        display: flex;
+        flex-direction:row;
+    
+      } */
+    
+      /* .lhs_collegeofphysiotherapy_int_content_wrapper{
+        width:60%;
+        margin-left:30px;
+        margin-right: auto;
+        margin-top:60px;
+      } */
+    
+      .collegeofphysiotherapy_int_header_title{
+    
+        font-family: poppins;
+        font-weight:600;
+        font-size:26px;
+        color:#556B2F;
+      }
+    
+      .collegeofphysiotherapy_int_para_title{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    text-align: justify;
+      }
+    
+    
+      /* .sml_collegeofphysiotherapy_int_imgwrapper{
+        width:100%;
+        display:flex;
+        column-gap: 10px;
+        justify-content: end;
+        margin-top:180px;
+      } */
+    
+      .collegeofphysiotherapy_int_sub_img{
+        width:20%;
+        height:160px;
+        object-fit:cover;
+    
+      }
+    
+    
+    
+    
+    /* .collegeofphysiotherapy_int_Principal_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    .collegeofphysiotherapy_int_Principal_header{
+        font-family: poppins;
+        font-weight: 600;
+        font-size:26px;
+        color:#556B2F;
+    }  
+    
+    /* .collegeofphysiotherapy_int_princ_card{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    } */
+    
+    
+    .collegeofphysiotherapy_int_Principal_img{
+        width:15%;
+        height:200px;
+        object-fit:cover;
+    
+      }
+    
+    
+      /* .collegeofphysiotherapy_int_Principal_dis_para{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    width:70%;
+    margin-left: auto;
+    margin-right:10px;
+    text-align: justify;
+      } */
+    
+      /* .collegeofphysiotherapy_int_Principal_aurthor{
+        font-size:16px;
+    font-family: poppins;
+    font-weight:400;
+    color:#454545;
+    text-align: right;
+    
+      } */
+    
+    /* .collegeofphysiotherapy_course_wrapper{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+        margin-top:120px;
+        
+    }   */
+    
+    /* .course_card_top{
+        border-top:0.4px solid #e0e0e0;
+        border-bottom:0.4px solid #e0e0e0;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    
+    /* .collegeofphysiotherapy_course_title{
+        font-family: poppins;
+        font-weight: 500;
+        font-size:18px;
+        color: #454545;
+        text-transform: capitalize;
+    } */
+    
+    /* .nrs_course_card_icons{
+        width:14px;
+        height:14px;
+    } */
+
+}
+
+
+@media(max-width:768px){
+
+    /* .collegeofphysiotherapy_container{
+        width:98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:80px;
+        
+    } */
+    
+    .collegeofphysiotherapy_int_layout_container{
+        display: flex;
+        flex-direction:column;
+    
+    }
+    
+    .collegeofphysiotherapy_int_header{
+        font-family: poppins;
+        font-size:54px;
+        font-weight:500;
+        text-align: center;
+        text-transform:uppercase;
+       margin-top:30px;
+        margin-bottom:20px;
+
+    
+    }
+    
+    /* .collegeofphysiotherapy_int_top_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction: row;
+    }
+     */
+    .collegeofphysiotherapy_int_lhs_img_wrapper{
+        width:50%;
+        height:500px;
+    }
+    
+    .collegeofphysiotherapy_int_cover_img{
+        height:500px;
+        width:100%;
+        height:500px;
+        object-fit:cover;
+        border-radius: 12px;
+      }
+    
+      /* .collegeofphysiotherapy_int_top_wrapper{
+        display: flex;
+        flex-direction:row;
+    
+      } */
+    
+      .lhs_collegeofphysiotherapy_int_content_wrapper{
+        width:98%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:60px;
+      }
+    
+      .collegeofphysiotherapy_int_header_title{
+    
+        font-family: poppins;
+        font-weight:600;
+        font-size:26px;
+        color:#556B2F;
+      }
+    
+      .collegeofphysiotherapy_int_para_title{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    text-align: justify;
+      }
+    
+    
+      .sml_collegeofphysiotherapy_int_imgwrapper{
+        width:100%;
+        display:flex;
+        column-gap: 10px;
+        justify-content: end;
+        margin-top:180px;
+      }
+    
+      .collegeofphysiotherapy_int_sub_img{
+        width:20%;
+        height:160px;
+        object-fit:cover;
+    
+      }
+    
+    
+    
+    
+    /* .collegeofphysiotherapy_int_Principal_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    .collegeofphysiotherapy_int_Principal_header{
+        font-family: poppins;
+        font-weight: 600;
+        font-size:26px;
+        color:#556B2F;
+    }  
+    
+    /* .collegeofphysiotherapy_int_princ_card{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    } */
+    
+    
+    .collegeofphysiotherapy_int_Principal_img{
+        width:25%;
+        height:200px;
+        object-fit:cover;
+    
+      }
+    
+    
+      .collegeofphysiotherapy_int_Principal_dis_para{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    width:85%;
+    margin-left: auto;
+    margin-right:10px;
+    text-align: justify;
+      }
+    
+      /* .collegeofphysiotherapy_int_Principal_aurthor{
+        font-size:16px;
+    font-family: poppins;
+    font-weight:400;
+    color:#454545;
+    text-align: right;
+    
+      } */
+    
+    /* .collegeofphysiotherapy_course_wrapper{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+        margin-top:120px;
+        
+    }   */
+    
+    /* .course_card_top{
+        border-top:0.4px solid #e0e0e0;
+        border-bottom:0.4px solid #e0e0e0;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    
+    /* .collegeofphysiotherapy_course_title{
+        font-family: poppins;
+        font-weight: 500;
+        font-size:18px;
+        color: #454545;
+        text-transform: capitalize;
+    } */
+    
+    /* .nrs_course_card_icons{
+        width:14px;
+        height:14px;
+    } */
+
+}
+
+@media(max-width:620px){
+
+  .collegeofphysiotherapy_int_principal_pfp_wrapper{
+    width:40%;
+  }
+  .collegeofphysiotherapy_int_Principal_img_pfp{
+    width:80%;
+    margin-left:0px;
+  }
+
+  .course_reveal_para{
+    font-family:poppins;
+    font-weight:400;
+    font-size:16px;
+    color: #454545;
+    text-align: justify;
+    
+    }
+    /* .collegeofphysiotherapy_container{
+        width:98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:80px;
+        
+    } */
+    
+    .collegeofphysiotherapy_int_layout_container{
+        display: flex;
+        flex-direction:column;
+    
+    }
+    
+    .collegeofphysiotherapy_int_header{
+        font-family: poppins;
+        font-size:54px;
+        font-weight:500;
+        text-align: center;
+        text-transform:uppercase;
+       margin-top:30px;
+        margin-bottom:20px;
+
+    
+    }
+    
+    /* .collegeofphysiotherapy_int_top_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction: row;
+    }
+     */
+    .collegeofphysiotherapy_int_lhs_img_wrapper{
+        width:100%;
+        height:500px;
+    }
+    
+    .collegeofphysiotherapy_int_cover_img{
+        height:500px;
+        width:100%;
+        height:500px;
+        object-fit:cover;
+        border-radius: 12px;
+      }
+    
+      /* .collegeofphysiotherapy_int_top_wrapper{
+        display: flex;
+        flex-direction:row;
+    
+      } */
+    
+      .lhs_collegeofphysiotherapy_int_content_wrapper{
+        width:98%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:60px;
+      }
+    
+      .collegeofphysiotherapy_int_header_title{
+    
+        font-family: poppins;
+        font-weight:600;
+        font-size:26px;
+        color:#556B2F;
+      }
+    
+      .collegeofphysiotherapy_int_para_title{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    text-align: justify;
+      }
+    
+    
+      .sml_collegeofphysiotherapy_int_imgwrapper{
+        width:100%;
+        display:flex;
+        column-gap: 10px;
+        justify-content: end;
+        margin-top:140px;
+        margin-bottom:80px;
+      }
+    
+      .collegeofphysiotherapy_int_sub_img{
+        width:20%;
+        height:160px;
+        object-fit:cover;
+    
+      }
+    
+    
+    
+    
+    /* .collegeofphysiotherapy_int_Principal_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    .collegeofphysiotherapy_int_Principal_header{
+        font-family: poppins;
+        font-weight: 600;
+        font-size:26px;
+        color:#556B2F;
+    }  
+    
+    /* .collegeofphysiotherapy_int_princ_card{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    } */
+    
+    
+    .collegeofphysiotherapy_int_Principal_img{
+        width:25%;
+        height:200px;
+        object-fit:cover;
+    
+      }
+    
+    
+      .collegeofphysiotherapy_int_Principal_dis_para{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    width:85%;
+    margin-left: auto;
+    margin-right:10px;
+    text-align: justify;
+      }
+    
+      /* .collegeofphysiotherapy_int_Principal_aurthor{
+        font-size:16px;
+    font-family: poppins;
+    font-weight:400;
+    color:#454545;
+    text-align: right;
+    
+      } */
+    
+    /* .collegeofphysiotherapy_course_wrapper{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+        margin-top:120px;
+        
+    }   */
+    
+    /* .course_card_top{
+        border-top:0.4px solid #e0e0e0;
+        border-bottom:0.4px solid #e0e0e0;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    
+    /* .collegeofphysiotherapy_course_title{
+        font-family: poppins;
+        font-weight: 500;
+        font-size:18px;
+        color: #454545;
+        text-transform: capitalize;
+    } */
+    
+    /* .nrs_course_card_icons{
+        width:14px;
+        height:14px;
+    } */
+
+}
+@media(max-width:549px){
+
+    /* .collegeofphysiotherapy_container{
+        width:98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:80px;
+        
+    } */
+    
+    .collegeofphysiotherapy_int_layout_container{
+        display: flex;
+        flex-direction:column;
+    
+    }
+    
+    .collegeofphysiotherapy_int_header{
+        font-family: poppins;
+        font-size:44px;
+        font-weight:500;
+        text-align: center;
+        text-transform:uppercase;
+       margin-top:30px;
+        margin-bottom:20px;
+
+    
+    }
+    
+    /* .collegeofphysiotherapy_int_top_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction: row;
+    }
+     */
+    .collegeofphysiotherapy_int_lhs_img_wrapper{
+        width:100%;
+        height:400px;
+    }
+    
+    .collegeofphysiotherapy_int_cover_img{
+        height:400px;
+        width:100%;
+        /* height:500px; */
+        object-fit:cover;
+        border-radius: 12px;
+        object-position: bottom center;
+      }
+    
+      /* .collegeofphysiotherapy_int_top_wrapper{
+        display: flex;
+        flex-direction:row;
+    
+      } */
+    
+      .lhs_collegeofphysiotherapy_int_content_wrapper{
+        width:98%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:60px;
+      }
+    
+      .collegeofphysiotherapy_int_header_title{
+    
+        font-family: poppins;
+        font-weight:600;
+        font-size:26px;
+        color:#556B2F;
+      }
+    
+      .collegeofphysiotherapy_int_para_title{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    text-align: justify;
+      }
+    
+    
+      .sml_collegeofphysiotherapy_int_imgwrapper{
+        width:100%;
+        display:flex;
+        column-gap: 10px;
+        justify-content: end;
+        margin-top:140px;
+        margin-bottom:80px;
+      }
+    
+      .collegeofphysiotherapy_int_sub_img{
+        width:20%;
+        height:160px;
+        object-fit:cover;
+    
+      }
+    
+    
+    
+    
+    /* .collegeofphysiotherapy_int_Principal_wrapper{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    .collegeofphysiotherapy_int_Principal_header{
+        font-family: poppins;
+        font-weight: 600;
+        font-size:26px;
+        color:#556B2F;
+    }  
+    
+    .collegeofphysiotherapy_int_princ_card{
+        width:99%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    
+    .collegeofphysiotherapy_int_Principal_img{
+        width:40%;
+        height:200px;
+        object-fit:cover;
+    
+      }
+    
+    
+      .collegeofphysiotherapy_int_Principal_dis_para{
+    font-size:18px;
+    font-family: poppins;
+    font-weight:500;
+    color:#454545;
+    width:85%;
+    margin-left: auto;
+    margin-right:10px;
+    text-align: justify;
+      }
+    
+      /* .collegeofphysiotherapy_int_Principal_aurthor{
+        font-size:16px;
+    font-family: poppins;
+    font-weight:400;
+    color:#454545;
+    text-align: right;
+    
+      } */
+    
+    /* .collegeofphysiotherapy_course_wrapper{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+        margin-top:120px;
+        
+    }   */
+    
+    /* .course_card_top{
+        border-top:0.4px solid #e0e0e0;
+        border-bottom:0.4px solid #e0e0e0;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }   */
+    
+    /* .collegeofphysiotherapy_course_title{
+        font-family: poppins;
+        font-weight: 500;
+        font-size:18px;
+        color: #454545;
+        text-transform: capitalize;
+    } */
+    
+    /* .nrs_course_card_icons{
+        width:14px;
+        height:14px;
+    } */
+
+}
+
+@media(max-width:425px){
+
+  .collegeofphysiotherapy_int_principal_pfp_wrapper{
+    width:60%;
+  }
+  .collegeofphysiotherapy_int_Principal_img_pfp{
+    width:80%;
+    margin-left:0px;
+  }
+
+
+
+    .collegeofphysiotherapy_int_header{
+        font-size:32px;
+    }
+
+    .collegeofphysiotherapy_int_sub_img{
+        width:30%;
+    }
+
+    .collegeofphysiotherapy_int_Principal_dis_para{
+        margin-left:auto;
+        margin-right: auto;
+        width:97%;
+    }
+}
+
+@media(max-width:375px){
+
+
+  .collegeofphysiotherapy_int_principal_pfp_wrapper{
+    width:70%;
+  }
+  .collegeofphysiotherapy_int_Principal_img_pfp{
+    width:80%;
+    margin-left:0px;
+  }
+
+    .collegeofphysiotherapy_int_header{
+        font-size:24px;
+    }
+    .collegeofphysiotherapy_int_sub_img {
+        width:35%;
+    }
+
+    .collegeofphysiotherapy_int_Principal_img{
+        width:50%;
+    }
+
+    .collegeofphysiotherapy_course_title{
+        font-size:16px;
+    }
+}

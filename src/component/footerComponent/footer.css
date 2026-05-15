@@ -1,0 +1,156 @@
+.footer_container{
+    width:97%;
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding: 20px;
+    background: #000;
+    color: white;
+    margin-top: 80px;
+    padding-top:60px;
+}
+
+.ftr_icons{
+    width:20px;
+    height:20px;
+}
+
+.hig_ftr_wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.ftr_int_title{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.lhs_footer_wrapper{
+ margin-right:20px;
+}
+
+.lhs_ftr_address_wrapper,.lhs_gmail_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap:30px;
+    
+}
+
+
+
+.lhs_ftr_address_text,.lhs_ftr_mail_address_text,.fnl_ftr_text_field,.mid_ftr_text_field{
+    font-family: poppins;
+    font-weight: 400;
+    font-size:16px;
+    color:#c0c0c0;
+    text-wrap: wrap;
+}
+
+
+.mid_ftr_header_text_field,.fnl_ftr_header_text_field{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+
+
+.btm_ftr_wrapper{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lhs_btm_ftr_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap:20px;
+}
+
+.ftr_btm_icons{
+    width:25px;
+    height:25px;
+}
+
+.lhs_btm_ftr_text{
+    font-size:14px;
+    font-weight: 400;
+    color:#c0c0c0;
+    font-family:poppins;
+}
+
+.social_media_link_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap:10px;
+}
+
+.btm_ftr_wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom:40px;
+
+}
+
+@media(max-width:778px){
+
+    .footer_container{
+        padding:0px;
+        width:100%;
+        justify-content: center;
+    }
+
+.lhs_ftr_address_wrapper,.lhs_gmail_wrapper{
+    column-gap:20px;
+}
+
+   .lhs_ftr_address_text,.mid_ftr_text_field,.fnl_ftr_text_field{
+
+    font-size: 14px;
+
+   }
+
+.lhs_btm_ftr_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+   .btm_ftr_wrapper{
+    display: flex;
+    flex-direction:column;
+    /* flex-wrap:wrap; */
+   }
+.social_media_link_wrapper{
+    margin-top:30px;
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+}
+
+
+@media(max-width:544px){
+
+    .lhs_footer_wrapper{
+        margin-right: 0px;
+    }
+
+
+    .lhs_ftr_address_wrapper,.lhs_gmail_wrapper{
+        display: flex;
+        flex-direction:column;
+
+        
+    }
+
+    .ftr_icons,.ftr_btm_icons{
+        width:20px;
+        height:20px;
+    }
+}
+
